@@ -1,0 +1,29 @@
+.home {
+  width: 35%;
+  margin:20px  auto;
+}
+
+.post-new {
+  background-color: white;
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.post-new div {
+  margin: 10px;
+}
+.post-new .cauhoi {
+  width: 90%;
+  background-color: #F0F2F5;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  border-radius: 25px;
+  color: #888d97;
+  cursor: pointer;
+
+}
+.post-new .cauhoi:hover{
+  background-color: #b0b5be;
+}

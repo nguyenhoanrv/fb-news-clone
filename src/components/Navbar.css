@@ -1,0 +1,12 @@
+ul {
+  width: 100%;
+  height: 100px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #bbbbbb;
+}
+ul li {
+  padding: 10px;
+}

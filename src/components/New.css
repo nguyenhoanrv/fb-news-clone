@@ -1,0 +1,20 @@
+.new {
+  width: 100%;
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-radius: 10px ;
+  box-shadow: 0px 0px 2px 2px #cccccc;
+}
+.new .user {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 10px ;
+}
+.new .content-post .content-post_status {
+  margin: 0px 0 15px 10px;
+}
+
+.new .content-post img {
+  width: 100%;
+}

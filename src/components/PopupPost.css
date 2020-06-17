@@ -1,0 +1,185 @@
+label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/anh.png');
+}
+
+input[type=file] {
+  display: none;
+}
+.popup-layout{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_post {
+  width: 500px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  top: 30%;
+  right: calc(50% - 250px);
+}
+.popup_post .content  {
+  width: 470px;
+  height: 100%;
+  margin: auto;
+}
+.popup_post  .title {
+  width: 500px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-bottom: 1px solid #e5e5e5 ;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+}
+.popup_post  .title i {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+  
+}
+.popup_post .content .profile {
+  width: 500px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+textarea {
+  width: 470px;     
+  height: auto;
+  font-size: 24px;
+  border: 0;
+  outline: 0;
+  outline-style: none;     
+  outline-width: 0; 
+  resize: none;
+}
+textarea::placeholder {
+  opacity: 0.5;
+
+}
+
+.option {
+  width: 100%;
+  height: 58px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ced0d4;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px #f8f8f8;
+  
+}
+.option .tieude {
+  margin-left: 15px;
+  font-size: 14.5px;
+  font-weight: 550;
+  cursor: pointer;
+
+}
+.option .icons {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:15px ;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url('../images/avatar.jpg');
+  margin-right:10px ;
+  cursor: pointer;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  border-radius: 50%;
+  cursor: pointer !important;
+}
+.anhsvg {
+  line-height: 30px;
+  text-align: center;
+}
+.icon:hover {
+  background-color: #e5e5e5;
+}
+.tag {
+  background: url('../images/ganthe.png');
+}
+.vitri {
+  background: url('../images/checkin.png');
+}
+.camxuc {
+  background: url('../images/icon.png');
+}
+
+button[type=submit] {
+  width: 100%;
+  height: 36px;
+  background-color: #e4e6eb;
+  border: 0;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #bcc0c4;
+  cursor: pointer;
+
+}
+
+button:focus {
+outline: none;
+}
+.preview-image {
+  width: 470px;
+  position: relative;
+}
+.preview-image img{
+  width: 470px;
+  border: 1px solid #ced0d4;
+  border-radius: 6px;
+  border-bottom:none ;
+}
+
+.svg-close {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  top: 10px;
+  right: 10px; 
+  
+  cursor: pointer;
+}
+.svg-close:hover {
+  background-color: #bcc0c4;
+}
+
+.hople {
+  background-color: rgb(41, 97, 250) !important;
+}
+.hople:hover {
+  background-color: rgb(14, 62, 195) !important;
+  color: #fff;
+}
