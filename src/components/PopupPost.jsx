@@ -73,15 +73,13 @@ class PopupPost extends Component {
   handleSubmit = () => {
     const news = {
       id: shortid.generate(),
-      status: this.state.status,
-      image: this.state.imgSrc
+      status: this.state.status || "",
+      image: this.state.imgSrc || ""
     };
     this.props.addPost(news)
-    console.log(news)
     this.props.togglePopup()
   }
   render() {
-    console.log(this.state.imgSrc)
     return (
 
       <div className="popup">

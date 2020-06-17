@@ -10,10 +10,10 @@ class News extends Component {
     this.setState({
       showPopup: !this.state.showPopup
     })
-    console.log("ok")
   }
   render() {
     const dataNews = this.props.dataNews
+
     return (
       <div className="home">
         <div className="post-new">
